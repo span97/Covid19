@@ -80,19 +80,4 @@ app.layout = html.Div(children=[
 
 ])
 
-app.run_server(debug=True, use_reloader=False)  # Turn off reloader if inside Jupyter
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.run_server(debug=True, use_reloader=False) 
